@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Calendar Encounter",
+  "version": "0.1.0",
+  "description": "Pretty view of your activities in any Encounter",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["https://ge.partynet.org/site/*"]
+  }]
+ 
+}
